@@ -1,0 +1,21 @@
+<!-- // Create some dates in Javascript.
+// Create your Birthday
+// Can you format/print a date in different formats -->
+<!DOCTYPE html>
+<html>
+<body>
+<h2>My Birthday is:</h2>
+  <p id="birthday1"></p>
+<h2>My Birthday is:</h2>
+  <p id="birthday2"></p>
+
+<script>
+var myBirthday1 = new Date(89,8,3,1,0,3,0);
+document.getElementById("birthday1").innerHTML = myBirthday1;
+
+var myBirthday2 = new Date(89,8,3).toDateString();
+document.getElementById("birthday2").innerHTML = myBirthday2;
+</script>
+
+</body>
+</html>
